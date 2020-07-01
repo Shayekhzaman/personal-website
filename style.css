@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: dimgray;
+}
+#name-lighter{
+    color: rgb(192, 26, 73);
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+}
+.text{
+    text-align: left;
+    padding: 8% 0 0 16%;
+}
+.half-width img{
+    width: 90%;
+}
+
+section{
+    height: 550px;
+    display: inline-block;
+    
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,hotpink,indianred);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+
+}
+.head-part{
+    background-image: url("images/header-bg.png");
+    background-size:100%;
+    background-position: left;
+}
+.images{
+    padding: 7%;
+}
+.bio{
+    padding-top: 12%;
+    
+}
+.bio-part{
+    background-image: url("images/biography-bg.png");
+    background-size:100%;
+}
+section.last-work{
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    background-image: url("images/latest-work-bg.png");
+    background-size: 100%;
+    background-position:left;
+}
+#work{
+    padding-top:2%;
+}
+#last-work img{
+    width: 23%;
+    padding: 4% 1.5% 5% 1%;
+    
+}
+section.down{
+    height: 550px;
+    text-align: center; 
+    width: 100%;
+    background-image: url("images/footer-bg.png");
+    background-size: 100%;
+    background-position: left;
+}
+h2{
+    font-weight: 300;
+    color: rgb(43, 32, 32);
+}
+.client-area{
+    margin-bottom: 8%;
+}
+.my-area{
+    color:white;
+    padding-top: 2%;
+    background-image: linear-gradient(45deg,tomato, indianred);
+    height: 140px;
+    margin: 0 20% 0 20%;
+    padding: 2pxpx 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    box-shadow: 10px 10px 20px aqua;
+}
+h3{
+    font-weight: 400;
+}
+.mail-button{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+}
+footer{
+    text-align: center;
+    padding: 10% 0 2% 0;
+    font-size: 12px;
+    font-weight: 600;
+}
